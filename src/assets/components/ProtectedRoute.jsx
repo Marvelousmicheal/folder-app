@@ -7,7 +7,7 @@ function ProtectedRoute({children}) {
     return <Navigate to="/login"/>
     }
   return children
-  console.log(user)
+ 
 }
 
 export default ProtectedRoute
